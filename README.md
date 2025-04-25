@@ -4,7 +4,7 @@ This Python script allows you to add custom prefixes and suffixes to file names 
 
 ## Features
 
-- Add predefined prefixes or suffixes to file names.
+- Add predefined prefixes or suffixes to file names according to a list of options.
 - Install or uninstall the context menu entries for quick access.
 - Automatically handles file name conflicts by appending a counter to the new file name.
 
@@ -23,6 +23,23 @@ To uninstall the context menu entries, run the following command:
 ```bash
 python prefix-suffix_adder.py uninstall
 ```
+Kill and Restart explorer.exe (optional)
+```bash
+taskkill /f /im explorer.exe && start explorer.exe
+```
+
+## Usage
+
+Once installed, you can right-click on a file in Windows Explorer and select "Add Prefix-Suffix". From there, you can choose a prefix or suffix to apply to the selected file.
+
+## Modify options list
+
+Just modify the following list in the code and uninstall and install the script.
+```python
+self.prefix_options = ["+Book+year+", "+Paper+year+", "+Thesis+year+", "+Report+year+", 
+                        "+Slides+year+", "+Presentation+year+", "+Draft+year+"]
+self.suffix_options = ["+authors"] 
+```
 
 ## Requirements
 
@@ -32,7 +49,7 @@ python prefix-suffix_adder.py uninstall
 
 ## Notes
 - The script automatically elevates privileges when needed for installation or uninstallation.
-- File name conflicts are resolved by appending a counter to the new file name (e.g., example.txt → +Book+year+example (1).txt).
+- File name conflicts are resolved by appending a counter to the new file name (e.g., example.pdf → +Book+year+example (1).pdf).
 
 ## License
 
