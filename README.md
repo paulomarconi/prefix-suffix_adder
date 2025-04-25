@@ -1,6 +1,6 @@
-# Prefix-Suffix Adder
+# Prefix-Suffix Adder for contextual menu
 
-This Python script allows you to add custom prefixes and suffixes to file names via the Windows context menu. It provides an easy way to rename files directly from the right-click menu in Windows Explorer.
+This simple Python script allows you to add custom prefixes and suffixes to file names via the Windows context menu. It provides an easy way to rename files directly from the right-click menu in Windows Explorer.
 
 ## Features
 
