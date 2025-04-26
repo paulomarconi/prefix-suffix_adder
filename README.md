@@ -1,8 +1,10 @@
 # Prefix-Suffix Adder for context menu in Windows 11/10
 
-This simple Python script allows you to add custom prefixes and suffixes to file names via the Windows 11/10 context menu. It provides an easy way to rename files directly from the right-click menu in Windows Explorer.
+This simple Python script allows you to add custom prefixes and suffixes to file names via the Windows 11/10 context menu. It provides an easy way to rename files directly from the right-click menu in Windows Explorer. 
 
-This tool is designed to quickly rename new PDF files based on their content type such as Book, Paper, Thesis, Report, etc., while automatically adding the publication year as a prefix and the author’s name as a suffix. 
+## Motivation
+
+Although there are sofisticated tools to organize documents such as Mendeley or Zotero, some users still prefer the classic Windows Explorer folder/document organization structure. This tool helps you to quickly rename new academic PDF files based on their content type such as Book, Paper, Thesis, Report, etc., while automatically adding the publication year as a prefix and the author’s name can be added as suffix, making manual organization faster and more consistent.
 
 ## Features
 
@@ -25,7 +27,8 @@ To uninstall the context menu entries, run the following command:
 ```bash
 python prefix-suffix_adder.py uninstall
 ```
-Kill and Restart explorer.exe (optional)
+Optional: kill and restart explorer.exe by command to see the changes.
+
 ```bash
 taskkill /f /im explorer.exe && start explorer.exe
 ```
