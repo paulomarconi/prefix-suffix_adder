@@ -2,6 +2,8 @@
 
 This simple Python script allows you to add custom prefixes and suffixes to file names via the Windows 11/10 context menu. It provides an easy way to rename files directly from the right-click menu in Windows Explorer.
 
+This tool is designed to quickly rename new PDF files based on their content type such as Book, Paper, Thesis, Report, etc., while automatically adding the publication year as a prefix and the author’s name as a suffix. 
+
 ## Features
 
 - Add predefined prefixes or suffixes to file names according to a list of options.
