@@ -36,7 +36,7 @@ Once installed, you can right-click on a file in Windows Explorer and select "Ad
 
 ## Modify options list
 
-Just modify the following list in the code and uninstall and install the script.
+Just modify the following list in the code and uninstall/install the script.
 ```python
 self.prefix_options = ["+Book+year+", "+Paper+year+", "+Thesis+year+", "+Report+year+", 
                         "+Slides+year+", "+Presentation+year+", "+Draft+year+"]
@@ -46,7 +46,7 @@ self.suffix_options = ["+authors"]
 ## Requirements
 
 - Python 3.x
-- Windows 10/11
+- Windows 11/10
 - Administrator privileges (required for installing/uninstalling context menu entries)
 
 ## Notes
