@@ -272,17 +272,17 @@ def main():
                         
         else:
             print("Usage:")
-            print("  - Install:         python script.py install")
-            print("  - Uninstall:       python script.py uninstall")
-            print("  - Add Prefix:      python script.py prefix [prefix_text] [file_path]")
-            print("  - Add Suffix:      python script.py suffix [suffix_text] [file_path]")
+            print("  - Install:         python prefix-suffix_adder.py install")
+            print("  - Uninstall:       python prefix-suffix_adder.py uninstall")
+            print("  - Add Prefix:      python prefix-suffix_adder.py prefix [prefix_text] [file_path]")
+            print("  - Add Suffix:      python prefix-suffix_adder.py suffix [suffix_text] [file_path]")
             input("Press Enter to exit...")
     else:
         print("File Prefix/Suffix Context Menu")
         print("-------------------------------")
         print("Usage:")
-        print("  - Install:         python script.py install")
-        print("  - Uninstall:       python script.py uninstall")
+        print("  - Install:         python prefix-suffix_adder.py install")
+        print("  - Uninstall:       python prefix-suffix_adder.py uninstall")
         input("Press Enter to exit...")
         
 if __name__ == "__main__":
