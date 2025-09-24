@@ -11,10 +11,16 @@ Although there are sofisticated tools to organize documents such as Mendeley or 
 - Add predefined prefixes or suffixes to file names according to a list of options.
 - Install or uninstall the context menu entries for quick access.
 - Automatically handles file name conflicts by appending a counter to the new file name.
+- 
+## Requirements
+
+- Python 3.x
+- Windows 11/10
+- Administrator privileges (required for installing/uninstalling)
 
 ## Installation
 
-To install the context menu entries, run the following command:
+To install the context menu entries, run the following command in the `cmd` as `admnistrator`:
 
 ```bash
 python prefix-suffix_adder.py install
@@ -27,7 +33,7 @@ To uninstall the context menu entries, run the following command:
 ```bash
 python prefix-suffix_adder.py uninstall
 ```
-Optional: kill and restart explorer.exe by command to see the changes.
+Optional: kill and restart `explorer.exe` by command to see the changes.
 
 ```bash
 taskkill /f /im explorer.exe && start explorer.exe
@@ -46,17 +52,14 @@ self.prefix_options = ["+Book+year+", "+Paper+year+", "+Thesis+year+", "+Report+
 self.suffix_options = ["+authors"] 
 ```
 
-## Requirements
-
-- Python 3.x
-- Windows 11/10
-- Administrator privileges (required for installing/uninstalling context menu entries)
-
 ## Notes
 - The script automatically elevates privileges when needed for installation or uninstallation.
 - File name conflicts are resolved by appending a counter to the new file name (e.g., example.pdf → +Book+year+example (1).pdf).
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+MIT License. 
 
+## Author
+
+paulomarconi
