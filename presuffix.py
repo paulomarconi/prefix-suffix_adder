@@ -663,18 +663,18 @@ def main():
                                
         else:
             print("Usage:")
-            print("  - Install:         python script.py install")
-            print("  - Uninstall:       python script.py uninstall")
+            print("  - Install:         python presuffix.py install")
+            print("  - Uninstall:       python presuffix.py uninstall")
             input("Press Enter to exit...")
     else:
-        print("Prefix + Suffix + Tesseract OCR Context Menu Tool")
-        print("=================================================")
+        print("Prefix-Suffix + Tesseract OCR renamer Context Menu Tool")
+        print("=======================================================")
         print("Features:")
         print("\nUsage:")
-        print("  - Install:         python script.py install")
-        print("  - Uninstall:       python script.py uninstall")
+        print("  - Install:         python presuffix.py install")
+        print("  - Uninstall:       python presuffix.py uninstall")
         print("\nRequired packages:")
-        print("  pip install Pillow pytesseract")
+        print("  pip install pillow pytesseract")
         print("\nTesseract OCR Engine:")
         print("  Download: https://github.com/UB-Mannheim/tesseract/wiki")
         

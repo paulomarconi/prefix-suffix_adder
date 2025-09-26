@@ -1,4 +1,4 @@
-# Prefix-Suffix Adder for context menu in Windows 11/10
+# Prefix-Suffix renamer with OCR recognition for the context menu in Windows 11/10
 
 This simple Python script allows you to add custom prefixes and suffixes to file names via the Windows 11/10 context menu. It provides an easy way to rename files directly from the right-click menu in Windows Explorer. 
 
@@ -15,8 +15,11 @@ Although there are sofisticated tools to organize documents such as Mendeley or 
 ## Requirements
 
 - Python 3.x
-- Windows 11/10
 - Administrator privileges (required for installing/uninstalling)
+- [pillow](https://pypi.org/project/Pillow/)
+- [mss](https://pypi.org/project/mss/)
+- [pytesseract](https://pypi.org/project/pytesseract/)
+- [Tesseract OCR Engine](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ## Installation
 
