@@ -45,7 +45,8 @@ Once installed, you can right-click on a file in Windows Explorer and select "Ad
 
 ## Modify options list
 
-Just modify the following list in the code and uninstall/install the script.
+Just modify the following list in the code and `uninstall/install` the script.
+
 ```python
 self.prefix_options = ["+Book+year+", "+Paper+year+", "+Thesis+year+", "+Report+year+", 
                         "+Slides+year+", "+Presentation+year+", "+Draft+year+"]
