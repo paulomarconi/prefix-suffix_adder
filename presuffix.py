@@ -660,7 +660,19 @@ def main():
                 return
             source_file_path = sys.argv[2] if len(sys.argv) > 2 else None
             handler.start_ocr(source_file_path)         
-                               
+        
+        elif command == "prefix":
+            if len(sys.argv) > 3:
+                prefix_text = sys.argv[2]
+                file_path = sys.argv[3]
+                handler.add_prefix(prefix_text, file_path)
+                
+        elif command == "suffix":
+            if len(sys.argv) > 3:
+                suffix_text = sys.argv[2]
+                file_path = sys.argv[3]
+                handler.add_suffix(suffix_text, file_path)
+                                      
         else:
             print("Usage:")
             print("  - Install:         python presuffix.py install")
